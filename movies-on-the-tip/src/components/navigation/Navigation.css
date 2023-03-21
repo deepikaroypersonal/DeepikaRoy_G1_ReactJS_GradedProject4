@@ -1,0 +1,18 @@
+@media (max-width: 1050px) {
+    .navItems {
+        font-size: 13px;
+    }
+
+    .searchStyle {
+        position: absolute; 
+        right: 1%; 
+        width: 20vw;
+    }
+}
+
+@media (max-width: 900px) {
+    .navItems {
+        font-size: 13px;
+        display: block;
+    }
+}

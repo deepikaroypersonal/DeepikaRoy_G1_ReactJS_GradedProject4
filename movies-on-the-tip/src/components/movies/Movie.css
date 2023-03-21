@@ -1,0 +1,35 @@
+
+.favourites-color {
+  color: red;
+}
+
+.fav-styles {
+  font-size: 0.85rem;
+  color: grey;
+}
+
+.card:hover {
+  box-shadow: rgb(37, 37, 37) 5px 5px 5px 5px;
+  transform: scale(1.02);
+}
+
+.card {
+  color: black;
+  text-decoration: none;
+  box-shadow: rgba(211, 36, 36, 0.06) 0px 2px 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:focus {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+.movie-poster {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200px;
+}

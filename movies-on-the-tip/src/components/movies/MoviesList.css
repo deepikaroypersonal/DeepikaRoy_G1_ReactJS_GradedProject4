@@ -1,0 +1,13 @@
+.cardsBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    transform: scale(1);
+}
+
+
+@media (max-width: 780px) {
+    .cardsBody {
+        
+    }
+}
